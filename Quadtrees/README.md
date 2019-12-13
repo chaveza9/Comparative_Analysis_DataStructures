@@ -9,12 +9,12 @@ The quadtree implementation contains tree folders. Each folder and its content i
 ⋅⋅3. Define the capacity of every quadtree node. This number should be greater than 0 <br/>
 ⋅⋅4. Define a bounding limit of the quadtree. This limit should be a number between 100 and 1200. This limit would generate a rectangle defined by the top left coordinates x = 0,y = 0 and bottom right coordinates x= limit, y = limit. The numbers for the limit are bounded between 100 and 1200 so the generated plot is big enough to be shown and also not too big that it would not fit a screen. After this step, one should see a window pop up with an image of the generated quadtree as shown below: <br/>
 
-![](https://github.com/chaveza9/Comparative_Analysis_DataStructures/blob/master/Quadtrees/images/PR.png "Quadtree Build")
+![](https://github.com/chaveza9/Comparative_Analysis_DataStructures/blob/master/Quadtrees/images/PR.png "Quadtree Build") <br/>
 ⋅⋅5 Press any key while Quadtree window is open <br/>
 ⋅⋅6 A Message will appear on the console requesting a coordinate that would represent the top left coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 2,100 <br/>
 ⋅⋅7 Similarly, another message will appear on the console requesting a coordinate that would represent the bottom right coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 400,110 <br/>
 ⋅⋅8 The Quadtree window should now show a blue rectangle as defined by the user. Also, the points inside the blue rectangle region would have a green bounding circle around them representing the extracted points <br/>
-![](https://github.com/chaveza9/Comparative_Analysis_DataStructures/blob/master/Quadtrees/images/PR_query.png "Quadtree Query")
+![](https://github.com/chaveza9/Comparative_Analysis_DataStructures/blob/master/Quadtrees/images/PR_query.png "Quadtree Query") <br/>
 
 2. quadtrees_no_graphics: <br/>
 ---
@@ -31,16 +31,16 @@ The quadtree implementation contains tree folders. Each folder and its content i
 2. quadtrees_Benchmarking: 
 ---
 ⋅⋅⋅ This folder contains the data sets used for the genration of histograms shown in the report. Here, a file with the reporting times of the insertion, find, and nearest neighbour computation time is generated. <br/>
-⋅⋅1. In order to run this version, the user needs to compile the code by running make all <br/>
-⋅⋅2. After the code has been compiled, the user can run one of the following commands in order to generate a benchmarking file <br/>
-⋅⋅* make run_random_data_100 <br/>
-⋅⋅* make run_random_perm_data_100 <br/>
-⋅⋅* make run_random_data_1000 <br/>
-⋅⋅* make run_random_perm_data_1000 <br/>
-⋅⋅* make run_random_data_100K <br/>
-⋅⋅* make run_random_perm_data_100K <br/>
-⋅⋅* make run_random_data_1M <br/>
-⋅⋅* make run_random_perm_data_1M <br/>
+    1. In order to run this version, the user needs to compile the code by running make all <br/>
+    2. After the code has been compiled, the user can run one of the following commands in order to generate a benchmarking file <br/>
+        * make run_random_data_100 <br/>
+        * make run_random_perm_data_100 <br/>
+        * make run_random_data_1000 <br/>
+        * make run_random_perm_data_1000 <br/>
+        * make run_random_data_100K <br/>
+        * make run_random_perm_data_100K <br/>
+        * make run_random_data_1M <br/>
+        * make run_random_perm_data_1M <br/>
 
 
 
