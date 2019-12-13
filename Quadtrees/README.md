@@ -9,12 +9,12 @@ The quadtree implementation contains tree folders. Each folder and its content i
 ⋅⋅3. Define the capacity of every quadtree node. This number should be greater than 0
 ⋅⋅4. Define a bounding limit of the quadtree. This limit should be a number between 100 and 1200. This limit would generate a rectangle defined by the top left coordinates x = 0,y = 0 and bottom right coordinates x= limit, y = limit. The numbers for the limit are bounded between 100 and 1200 so the generated plot is big enough to be shown and also not too big that it would not fit a screen. After this step, one should see a window pop up with an image of the generated quadtree as shown below:
 
-![alt text](https://github.com/chaveza9/Comparative_Analysis_DataStructures/Quadtrees/images/PR.png "Quadtree Build")
+![](https://github.com/chaveza9/Comparative_Analysis_DataStructures/blob/master/Quadtrees/images/PR.png "Quadtree Build")
 ⋅⋅5 Press any key while Quadtree window is open
 ⋅⋅6 A Message will appear on the console requesting a coordinate that would represent the top left coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 2,100
 ⋅⋅7 Similarly, another message will appear on the console requesting a coordinate that would represent the bottom right coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 400,110
 ⋅⋅8 The Quadtree window should now show a blue rectangle as defined by the user. Also, the points inside the blue rectangle region would have a green bounding circle around them representing the extracted points
-![alt text](https://github.com/chaveza9/Comparative_Analysis_DataStructures/Quadtrees/images/PR_query.png "Quadtree Build")
+![](https://github.com/chaveza9/Comparative_Analysis_DataStructures/blob/master/Quadtrees/images/PR_query.png "Quadtree Query")
 
 2. quadtrees_no_graphics: 
 ---
