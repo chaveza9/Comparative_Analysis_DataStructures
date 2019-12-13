@@ -10,10 +10,10 @@ Contains a full implementation of quadtrees with visualization. In order to prop
 4. Define a bounding limit of the quadtree. This limit should be a number between 100 and 1200. This limit would generate a rectangle defined by the top left coordinates x = 0,y = 0 and bottom right coordinates x= limit, y = limit. The numbers for the limit are bounded between 100 and 1200 so the generated plot is big enough to be shown and also not too big that it would not fit a screen. After this step, one should see a window pop up with an image of the generated quadtree as shown below: <br/>
 
 ![](https://github.com/chaveza9/Comparative_Analysis_DataStructures/blob/master/Quadtrees/images/PR.png "Quadtree Build") <br/>
-5 Press any key while Quadtree window is open <br/>
-6 A Message will appear on the console requesting a coordinate that would represent the top left coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 2,100 <br/>
-7 Similarly, another message will appear on the console requesting a coordinate that would represent the bottom right coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 400,110 <br/>
-8 The Quadtree window should now show a blue rectangle as defined by the user. Also, the points inside the blue rectangle region would have a green bounding circle around them representing the extracted points <br/>
+5. Press any key while Quadtree window is open <br/>
+6. A Message will appear on the console requesting a coordinate that would represent the top left coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 2,100 <br/>
+7. Similarly, another message will appear on the console requesting a coordinate that would represent the bottom right coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 400,110 <br/>
+8. The Quadtree window should now show a blue rectangle as defined by the user. Also, the points inside the blue rectangle region would have a green bounding circle around them representing the extracted points <br/>
 ![](https://github.com/chaveza9/Comparative_Analysis_DataStructures/blob/master/Quadtrees/images/PR_query.png "Quadtree Query") <br/>
 
 2. quadtrees_no_graphics: <br/>
@@ -24,10 +24,10 @@ Contains a full implementation of quadtrees with no visualization. This is just 
 2. Insert the total amount of random points to be inserted in a quadtree <br/>
 3. Define the capacity of every quadtree node. This number should be greater than 0 <br/>
 4. Define a bounding limit of the quadtree. This limit should be a number between 100 and 1200. This limit would generate a rectangle defined by the top left coordinates x = 0,y = 0 and bottom right coordinates x= limit, y = limit. g "Quadtree Build") <br/>
-5 A Message will appear on the console requesting a coordinate that would represent the top left coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 2,100 <br/>
-6 Similarly, another message will appear on the console requesting a coordinate that would represent the bottom right coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 400,110 <br/>
-7 The console will print all the data points contained within the specified area <br/>
-8 If the user needs a separate file for the query, just run ./Quadtree>>NAMEOFOUTPUTFILE <br/>
+5. A Message will appear on the console requesting a coordinate that would represent the top left coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 2,100 <br/>
+6. Similarly, another message will appear on the console requesting a coordinate that would represent the bottom right coordinate of a rectangle to generate a query. Define two numbers separated by a comma with no spaces inbetween, example 400,110 <br/>
+7. The console will print all the data points contained within the specified area <br/>
+8. If the user needs a separate file for the query, just run ./Quadtree>>NAMEOFOUTPUTFILE <br/>
 
 2. quadtrees_Benchmarking: 
 ---
