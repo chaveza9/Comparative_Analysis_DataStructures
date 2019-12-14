@@ -1,4 +1,4 @@
-# Comparative Analysis of Data Structure
+# Comparative Analysis of Spatial Data Structures
 
 The goal of our project was to compare 2 spatial data structures (Kd-Trees and Quadtrees) and two linear data structures as an introduction to each of these data structures. This involves a comparison of the amortized analysis of the most basic methods of each of the data structures (find, insert, and delete) with the possibility of implementing methods that are significant to each (such as nearest-neighbor query for kd-trees and quad trees) using randomly generated datasets and different permutations of these.
 
