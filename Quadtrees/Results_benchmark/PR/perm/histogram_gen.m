@@ -48,7 +48,7 @@ grid minor
 title("Average time per permutation")
 ylabel("Avg Insert Time [sec]")
 subplot(2,1,2)
-bar(X,flip(finding_time)),set(gca,'yscale','log')
+bar(X,flip(finding_time))
 grid minor
 ylabel("Avg Find Time [sec]")
 xlabel("Data Size Number")
