@@ -40,21 +40,17 @@ for i=1:length(listing)
     
 end
 
-
+X = categorical({'100','1000','100K','1M'});
 figure(i+1)
-subplot(3,1,1)
-plot(N,inserting_time)
+subplot(2,1,1)
+bar(X,(flip(inserting_time))),set(gca,'yscale','log')
 grid minor
 title("Average time per permutation")
 ylabel("Avg Insert Time [sec]")
-subplot(3,1,2)
-plot(N,finding_time)
+subplot(2,1,2)
+bar(X,flip(finding_time)),set(gca,'yscale','log')
 grid minor
 ylabel("Avg Find Time [sec]")
-subplot(3,1,3)
-plot(N,nearest_time)
-grid minor
-ylabel("Avg Nearest. Time [sec]")
-xlabel("Permutation Number")
+xlabel("Data Size Number")
 
 
